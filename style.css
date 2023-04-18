@@ -1,0 +1,22 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+caption{
+    border: 1px solid black;
+    caption-side: top;
+}
+
+th{
+    border: 1px solid black;
+    height: 30px;
+    padding: 15px;
+    text-align: right;
+}
+td{
+    border: 1px solid black;
+    height: 55px;
+    padding: 5px;
+    text-align: left;
+    vertical-align: middle;
+}
