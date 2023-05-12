@@ -3,5 +3,9 @@ body{
   background-image: url("/Sumitpic.png");
   background-repeat: no-repeat;
   /* background-repeat: repeat-x; */
-  background-position: left bottom;
+  /* background-position: left bottom; */
+  /* background-size: 100% 100%; */
+  /* background-size: contain; */
+  background-image: cover;
+
 }
