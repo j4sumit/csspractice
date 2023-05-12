@@ -1,16 +1,14 @@
-#div1{
-background-color: blueviolet;
-width: 500px;
-height: 150px;
+p{
+  color: red;
 }
-#div2{
-    background-color: chocolate;
-    width: 500px;
-    height: 150px;
-    /* padding:50px; */
-    border: 10px solid black;
-    box-sizing: border-box;
+#p3{
+  color: blue;
+}
 
+.green{
+  color: green;
+}
 
-    
+#h1{
+  font-size: 100px;
 }
