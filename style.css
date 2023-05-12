@@ -7,6 +7,26 @@
 /* border-style: outset; */
 /* border-style: groove; */
 /* border-right: ridge; */
-border: none;
+/* border: none; */
+/* border-width: 5px 10px 3px 9px;
+border : solid; */
+
+/* border-top-style: solid;
+border-top-color: red;
+border-top-width: 5px;
+ */
+
+ /* border: 5px solid red;
+ border-radius: 50%;
+ border-radius: 10px;
+ */
+}
+
+#border{
+  background-color: gray;
+  /* height: 500px;
+  width: 500px; */
+height: 100%;
+width: 70%;
 
 }
