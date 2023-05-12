@@ -1,14 +1,7 @@
-p{
-  color: red;
-}
-#p3{
-  color: blue;
-}
 
-.green{
-  color: green;
-}
-
-#h1{
-  font-size: 100px;
+body{
+  background-image: url("/Sumitpic.png");
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  background-position: left bottom;
 }
