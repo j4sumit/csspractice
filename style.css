@@ -1,11 +1,12 @@
-
-body{
-  background-image: url("/Sumitpic.png");
-  background-repeat: no-repeat;
-  /* background-repeat: repeat-x; */
-  /* background-position: left bottom; */
-  /* background-size: 100% 100%; */
-  /* background-size: contain; */
-  background-image: cover;
+#border{
+  /* border: solid;
+  border: dashed;
+  border : solid; 
+  border: double; */
+/* border-style: inset; */
+/* border-style: outset; */
+/* border-style: groove; */
+/* border-right: ridge; */
+border: none;
 
 }
