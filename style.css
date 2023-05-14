@@ -1,16 +1,15 @@
-html{
-  font-size: 14px;
-}
-#parent{
-  /* border: 1px solid black; */
-  /* width: 500px */
-  /* height: 50vh;
-  width: 50vw; */
-  font-size: 4rem;
+div{
+  border: 1px solid red !important;
+  /* cursor: crosshair;
+  cursor: zoom-in;
+  /* cursor: auto/all-scroll/cell/  cursor:
+  cursor: e-resize;
+  cursor: wait;
+  cursor: zoom-in;
+   col-resize help not-allowe pointer progress ; */
+
 }
 
-#child{
-  /* border: 1px solid red;
-width: 50vh; */
-font-size: 2rem;
+div{
+  border: 1px solid green;
 }
