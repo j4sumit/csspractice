@@ -1,16 +1,16 @@
-a{
-  text-decoration: none;
+@font-face {
+  font-family: aclonica;
+  src: url("/fonts/GreatVibes-Regular.ttf");
 }
-/* link :visited horver :active */
-a:link{
-color: yellow;
+h1{
+
+  /* font-family: 'Raleway', sans-serif; */
+font-family: aclonica;
 }
-a:visited{
-color: black;
-}
-a:hover{
-color: orange;
-}
-a:active{
-color: red;
+p{
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: italic; */
+  font-family: aclonica, 'Poppins', sans-serif;
+
 }
