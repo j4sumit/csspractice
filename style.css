@@ -1,15 +1,15 @@
-div{
-  border: 1px solid red !important;
-  /* cursor: crosshair;
-  cursor: zoom-in;
-  /* cursor: auto/all-scroll/cell/  cursor:
-  cursor: e-resize;
-  cursor: wait;
-  cursor: zoom-in;
-   col-resize help not-allowe pointer progress ; */
-
+#color-box{
+background-color: green;
+height: 200px;
+width: 500px;
+margin-bottom: 5px;
+opacity: 1;
+}
+#red-box{
+  height: 300px;
+  width: 200px;
+  background-color: red;
+  opacity: 0.5;
+  margin-top: -100px;
 }
 
-div{
-  border: 1px solid green;
-}
