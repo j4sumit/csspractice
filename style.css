@@ -1,38 +1,16 @@
-#wstyle{
-width: 200px;
-border: 1px solid black;
-writing-mode: vertical-lr;
+a{
+  text-decoration: none;
 }
-
-#shadow{
-  font-size: 70px;
-  text-shadow: 5px -10px 5px red;
+/* link :visited horver :active */
+a:link{
+color: yellow;
 }
-#text{
- width: 500px;
- border: 1px solid black; 
- /* color: blueviolet;
- text-align: justify; */
- /* direction: rtl; */
- /* text-decoration: underline; */
- /* text-decoration: overline; */
- /* text-decoration: line-through; */
- /* text-transform: uppercase; */
- /* text-transform: lowercase; */
- /* text-transform: capitalize; */
- /* line-height: 30px; */
- /* text-indent: 50px; */
- /* letter-spacing: 3px; */
-/* word-spacing: 10px; */
-/* white-space: pre; */
-/* white-space: nowrap; */
-word-wrap: break-word;
+a:visited{
+color: black;
 }
-img{
-  height: 250px;
-  width: 200px;
-  /* vertical-align: top; */
-  /* vertical-align: bottom; */
-  /* vertical-align: middle; */
-  
+a:hover{
+color: orange;
+}
+a:active{
+color: red;
 }
