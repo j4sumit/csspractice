@@ -11,4 +11,10 @@ overflow: auto;
 /* overflow-x: hidden; */
 /* overflow-y: scroll; */
 
+/* resize: both; */
+/* resize: horizontal; */
+/* resize: vertical; */
+overflow: hidden;
+
 }
+
