@@ -1,5 +1,18 @@
+:root{
+  --primary-color : green;
+  --btn-color: blue;
+  --text-color: red;
+}
 #fun{
-  background-color: teal;
+  background-color: var(--primary-color);
   height: 200px;
-  width: calc(100% - 200px);
+  /* width: calc(100% - 200px); */
+}
+
+a{
+  padding: 10px 20px;
+  margin: 20px;
+  text-decoration: none;
+  background-color: var(--btn-color);
+  color: var(--text-color);
 }
