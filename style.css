@@ -1,13 +1,8 @@
-#green{
-color: green;
-}
-#blue{
-color: red;
+li:nth-last-child(2){
+  color:red
 }
 
-#initial{
-color: initial;
-}
-#inherit{
-color:inherit;
+input:focus{
+
+  border: 3px solid red;
 }
