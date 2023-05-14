@@ -1,8 +1,16 @@
-li:nth-last-child(2){
-  color:red
+p::first-line{
+  font-size: 35px;
+  color: red;
+}
+h1::before{
+content:"Sumit";
 }
 
-input:focus{
+h1::after{
+  content:"chaurasiya";
+  }
 
-  border: 3px solid red;
-}
+  ::selection{
+    color: red;
+    background-color: yellow;
+  }
