@@ -1,44 +1,33 @@
-@keyframes changecolor{
-  /* from {background-color: red;}
-  to{background-color: yellow;} */
-
-  0% {background-color: red; border-radius: 0%;}
-  10% {background-color: yellow; border-radius: 10%;}
-  20% {background-color: blue; border-radius: 20%;}
-  30% {background-color: yellowgreen; border-radius: 30%;}
-  40% {background-color: green; border-radius: 40%;}
-  50% {background-color: orange; border-radius: 50%;}
-  60% {background-color: brown; border-radius: 40%;}
-  70% {background-color: olive; border-radius: 30%;}
-  80% {background-color: orange; border-radius: 20%;}
-  90% {background-color: green; border-radius: 10%;}
-  100% {background-color: blue; border-radius: 0%;}
-  
-
-
-
+#div1{
+width: 70%;
+float: left;
+background-color: lawngreen;
 }
-
-#animate{
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  animation-name: changecolor;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+#div2{
+  width: 30%;
+  float: left;
+  background-color: rosybrown;
 }
-
-/* #animate2{
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  animation-name: changecolor;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-direction: alternate;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
-
-} */
+h1{
+  font-size: 40pxs;
+}
+@media screen and (max-width: 1000px ) and (min-width: 600px){
+  #div1{
+    width: 50%;
+    color:yellow  
+  }
+  #div2{
+    width: 50%;
+    color: white;
+  }
+}
+@media screen and (max-width: 500px){
+  #div1{
+    width: 100%;
+    background-color: red;
+  }
+  #div2{
+    width: 100%;
+    background-color: blue;
+  }
+}
