@@ -1,16 +1,11 @@
-p::first-line{
-  font-size: 35px;
-  color: red;
-}
-h1::before{
-content:"Sumit";
+.display{
+  border: 1px solid black;
+  width: 50%;
+  height: 100px;
+  display: inline-block;
 }
 
-h1::after{
-  content:"chaurasiya";
-  }
-
-  ::selection{
-    color: red;
-    background-color: yellow;
-  }
+#div1{
+  /* display: none; */
+  visibility: hidden;
+}
